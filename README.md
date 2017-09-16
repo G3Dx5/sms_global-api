@@ -14,7 +14,7 @@ The repository contains three variations on the code / functionality:
     
     Example Usage: ./sms_global_ARGP.py -s me -r +61400111222 -m "Hi there"
 
-- sms_global_SARGV.py - a variation on the code that uses the python sys.argv function to obtain message settings where -s is the sender name (whatever you supply), -r is the recipient phone number and -m is the message. Requires all fields (except the script of course!) in quotation marks. If successful will return "Message successfully sent".  If there is a problem, will return "Message not sent. Check settings and try again".
+- sms_global_SARGV.py - a variation on the code that uses the python sys.argv function to obtain message settings.  Requires all fields (except the script of course!) in quotation marks. If successful will return "Message successfully sent".  If there is a problem, will return "Message not sent. Check settings and try again".
 
     Example Usage: ./sms_global_SARGV.py "myname" "+61400111222" "Hello World"
 
