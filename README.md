@@ -20,4 +20,6 @@ The repository contains three variations on the code / functionality:
 
 **Licence:**
 
-Released under MIT License, 2017
+Released under MIT License
+
+GaDayas 2017

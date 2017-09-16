@@ -8,6 +8,7 @@
 
 import urllib
 import argparse
+import logging 
 
 #==================================================================#
 # Using the argparse module for options.                           #
@@ -58,13 +59,18 @@ http_req += urllib.quote(message)
 # to be sent                                    #
 #===============================================#
 
+logging.basicConfig(filename='smstraffic.log', level=logging.DEBUG,
+    format='%(asctime)s:%(levelname)s:%(message)s')
+
 def sendText():
 	get = urllib.urlopen(http_req)
 	req = get.read()
 	get.close()
 	if req.find("Message accepted for delivery"):
-    		print "Message successfully sent"
+		print("Message successfully sent")
+		logging.info("message sent successfully")
 	else:
-    		print "* Message not sent. Check settings and try again *"
+		print("* Message not sent. Check settings and try again *")
+		logging.info("message failed")
 
 sendText()
