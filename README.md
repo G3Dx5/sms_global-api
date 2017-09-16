@@ -1,6 +1,6 @@
 ﻿# sms_global-api
 
-**Python code to allow users with an smsglobal account to programmatically send information by SMS. **
+**Python code to allow users with an smsglobal account to programmatically send information by SMS.** 
 
 The repository contains three variations on the code: 
 
@@ -13,3 +13,4 @@ Example: ./sms_global_HCO.py
 Example: ./sms_global_ARGP.py -s me -r +61400111222 -m "Hi there"
 
 
+Released under MIT License, 2017
