@@ -1,0 +1,27 @@
+# VirtualEnv/Venv Directories
+bin
+include
+lib
+lib64
+pip-selfcheck.json
+
+# ViM Swap files
+.*.swp
+
+# Python and Packaging
+*.egg
+*.egg-info
+*.pyc
+*$py.class
+*~
+.coverage
+.cache
+coverage.xml
+build/
+dist/
+.tox/
+nosetests.xml
+env*/
+tmp/
+coverage
+test
