@@ -18,7 +18,6 @@ The repository contains three variations on the code / functionality:
 
     Example Usage: ./sms_global_SARGV.py "myname" "+61400111222" "Hello World"
 
-
 **Licence:**
 
 Released under MIT License
