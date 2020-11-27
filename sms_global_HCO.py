@@ -2,7 +2,7 @@
 
 #=======================================================================#
 # script to send messages from feeds or sensors with smsglobal account  #
-# By Gabe. github: GaDayas                                        #
+# github: G3Dx5                                                         #
 # Version 0.1 (basic), 27 June 2017                                     #
 # Runs with sender, recipient and message hardcoded in the script       #
 # Example: ./sms_global_HCO.py                                          #

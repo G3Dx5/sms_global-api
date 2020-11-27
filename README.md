@@ -22,4 +22,4 @@ The repository contains three variations on the code / functionality:
 
 Released under MIT License
 
-GaDayas 2017
+G3Dx5 2017

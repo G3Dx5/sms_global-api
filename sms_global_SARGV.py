@@ -2,7 +2,7 @@
 
 #=======================================================================#
 # script to send messages from feeds or sensors with smsglobal account  #
-# By Gabe. github: GaDayas                                        #
+# github: G3Dx5                                                         #
 # Version 0.2 (sys.argv CLI version), 27 June 2017                      #
 #=======================================================================#
 
